@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content
+	form(method="post", id="form-message")
+		label(for="chat-input") Message
+		input(type="text", id="chat-input", name="chat-input")
+	ul(id="chat")
+	script(src="./assets/app.js")
+
